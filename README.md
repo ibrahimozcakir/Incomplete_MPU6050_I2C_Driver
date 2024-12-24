@@ -1,5 +1,14 @@
 ### README.md
 
+
+## Status
+
+**This driver is a work in progress.** 
+This driver is currently under development and is not yet fully completed. 
+Some features may not be implemented or tested. Updates and improvements will be made in the near future. Please check for new releases!
+
+---
+
 # MPU6050 I2C Driver
 
 This repository contains an I2C driver for the MPU6050 sensor. The driver allows users to configure the sensor, read data from its accelerometer, gyroscope, and temperature sensor, and manage its operational modes.
@@ -106,17 +115,6 @@ This will populate the `sensor` object with:
 
 ---
 
-README dosyasına, driver'ın henüz tamamlanmadığını ve gelecekteki güncellemelerle ilgili bilgi verecek bir not eklemek için şu şekilde bir bölüm ekleyebilirsiniz:
-
----
-
-## Status
-
-**This driver is a work in progress.** Some functions may not be fully implemented or tested yet. Updates and improvements will be released in the near future.
-
-We are actively working on enhancing the driver, adding more features, and improving stability. Stay tuned for upcoming releases!
-
----
 
 
 Feel free to customize or extend the driver as per your project requirements!
