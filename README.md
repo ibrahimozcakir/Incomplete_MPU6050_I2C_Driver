@@ -106,20 +106,17 @@ This will populate the `sensor` object with:
 
 ---
 
-## Contributing
-
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feature-name`.
-3. Commit your changes: `git commit -m "Add feature-name"`.
-4. Push to the branch: `git push origin feature-name`.
-5. Open a pull request.
+README dosyasına, driver'ın henüz tamamlanmadığını ve gelecekteki güncellemelerle ilgili bilgi verecek bir not eklemek için şu şekilde bir bölüm ekleyebilirsiniz:
 
 ---
 
-## License
+## Status
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+**This driver is a work in progress.** Some functions may not be fully implemented or tested yet. Updates and improvements will be released in the near future.
+
+We are actively working on enhancing the driver, adding more features, and improving stability. Stay tuned for upcoming releases!
 
 ---
+
 
 Feel free to customize or extend the driver as per your project requirements!
