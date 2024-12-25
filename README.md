@@ -1,7 +1,7 @@
 ### README.md
 
 
-## Status
+## STATUS
 
 **This driver is a work in progress.** 
 This driver is currently under development and is not yet fully completed. 
