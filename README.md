@@ -189,6 +189,7 @@ typedef enum {
 | `MPU6050_InterruptEnable`             | Enables sensor interrupts.                    |
 | `MPU6050_InterruptDisable`            | Disables sensor interrupts.                   |
 | `MPU6050_SampleRateConfig`            | Configures the sample rate and divider.       |
+| `MPU6050_ReadDataIT`                  | Reads all data with interrupt                 |
 
 ---
 
