@@ -61,6 +61,24 @@ Before using the driver, ensure that the `mpu6050.h` file is configured accordin
 #define _I2C_CLK_SPEED_STANDARD_
 ```
 
+### Resetting the I2C Bus
+
+In some cases, the I2C bus might get stuck after resetting the STM32 board. To resolve this issue, you can use the `I2C_ResetI2C` function provided in the `I2C_Reset.h` file. This function releases the I2C bus and ensures proper initialization. Include the following header file:
+
+```c
+#include "stm32f4xx_hal.h"
+#include "I2C_Reset.h"
+
+void I2C_ResetI2C(I2C_HandleTypeDef* I2C_Handle);
+```
+
+Make sure to call this function before initializing the I2C peripheral, typically before the `MX_I2C1_Init()` function in your `main.c` file:
+
+```c
+I2C_ResetI2C(&hi2c1);
+MX_I2C1_Init();
+```
+
 ### Installation
 
 1. Clone the repository:
