@@ -1,7 +1,6 @@
 #ifndef INC_MPU6050_H_
 #define INC_MPU6050_H_
 
-
 #include "stm32f4xx_hal.h"
 #include "I2C_Reset.h"
 #include <stdint.h>
